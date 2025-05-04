@@ -1,0 +1,17 @@
+[
+    {
+        "url": "https://bilibili.com",
+        "text": "哔哩哔哩|bilibili 【所有内容都会发布在这里】",
+        "icon": "fa-brands fa-youtube fa-lg"
+    },
+    {
+        "url": "https://youtube.com",
+        "text": "YouTube 【作品也会发在这】",
+        "icon": "fa-brands fa-youtube fa-lg"
+    },
+    {
+        "url": "https://github.com",
+        "text": "GitHub 【带逛】",
+        "icon": "fa-brands fa-github fa-lg"
+    }
+]
