@@ -6,7 +6,7 @@
 
 /* Make the whole site not clickable */
 * {
-    pointer-events: none;
+    pointer-events: auto;
     user-select: none;
 }
 
@@ -27,13 +27,25 @@ main {
     opacity: 0;
 }
 
+#name {
+    color: var(--accent);
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    filter: drop-shadow(1px 1px 3px rgb(163, 20, 51)) invert(75%);
+    user-select: text;
+}
+
 #about {
     color: var(--accent);
-    filter: drop-shadow(0 0 1rem black);
-    font-size: 1rem;
+    filter: invert(95%);
+    font-size: 16px;
     line-height: 1.5;
-    opacity: .75;
+    opacity: .5;
     text-align: center;
+    margin: 10px;
+    user-select: text;
 }
 
 
@@ -63,25 +75,25 @@ main {
 
 #links {
     display: block;
-    margin: 27px auto;
+    margin: 20px auto;
     max-width: 600px;
     width: auto;
 }
 
 #links a {
     background-color: var(--button);
-    border-radius: 30px;
+    border-radius: 10px;
     color: var(--accent);
     display: block;
-    font-size: 1rem;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 18px;
     margin-left: 50px;
     margin-right: 50px;
-    opacity: .75;
-    padding: 10px;
+    opacity: .7;
+    padding: 18px;
     pointer-events: auto;
     position: relative;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     transition: all .5s cubic-bezier(.08, .59, .29, .99);
 }
@@ -93,14 +105,6 @@ main {
     opacity: 1;
 }
 
-#name {
-    color: var(--accent);
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 1.25;
-    text-align: center;
-    filter: drop-shadow(0 0 1rem black);
-}
 
 #picture img {
     border-radius: 50%;
@@ -117,10 +121,10 @@ main {
 /* Wallpaper properties */
 #wallpapers > * {
     animation: fadein 1s ease-out .5s forwards;
-    opacity: 0;
+    opacity: 20;
     left: 0;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto; 
     position: fixed;
     top: 0;
     width: 100vw;

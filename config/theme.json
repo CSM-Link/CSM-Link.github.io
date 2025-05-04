@@ -1,6 +1,7 @@
 {
-    "accent": "#ffffff",
-    "background": "#000000",
+    "accent": "#f0ffff",
+    "background": "#100000",
     "button": "#333333",
-    "wallpapers": ["particledrift"]
+    "wallpapers": ["gradient"]
 }
+

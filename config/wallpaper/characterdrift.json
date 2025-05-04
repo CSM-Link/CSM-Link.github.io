@@ -1,6 +1,6 @@
 {
-    "amount": 30,
+    "amount": 20,
     "characters": ["📎", "🖇️", "🔗"],
     "possible_colors": ["#ffffff","#dfffd6"],
-    "size": 2
+    "size": 5
 }
