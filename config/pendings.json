@@ -1,0 +1,20 @@
+[
+    {
+        "id": "pending1",
+        "property": "textContent",
+        "value": "QQ 邮箱 : xxxxxxxxx@qq.com",
+        "style":"mail"
+    },
+    {
+        "id": "pending2",
+        "property": "textContent",
+        "value": "Gmail : xxxxxxxxx@gmail.com",
+        "style":"mail"
+    },
+    {
+        "id": "pending3",
+        "property": "textContent",
+        "value": "QQ : xxxxxxxxx",
+        "style":"mail"
+    }
+]

@@ -2,16 +2,16 @@
     {
         "url": "https://bilibili.com",
         "text": "哔哩哔哩|bilibili 【主要内容发布在这里】",
-        "icon": "fa-brands fa-youtube fa-lg"
+        "icon": "../assets/icons/bilibili.svg"
     },
     {
         "url": "https://youtube.com",
         "text": "YouTube 【作品也会发在这】",
-        "icon": "fa-brands fa-youtube fa-lg"
+        "icon": "../assets/icons/youtube.svg"
     },
     {
         "url": "https://github.com",
         "text": "  GitHub 【带逛】",
-        "icon": "fa-brands fa-github fa-lg"
+        "icon": "../assets/icons/github.svg"
     }
 ]

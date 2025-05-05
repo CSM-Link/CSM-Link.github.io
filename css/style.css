@@ -30,7 +30,7 @@ main {
 #name {
     color: var(--accent);
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 800;
     line-height: 1.5;
     text-align: center;
     filter: drop-shadow(1px 1px 3px rgb(163, 20, 51)) invert(75%);
@@ -86,11 +86,12 @@ main {
     color: var(--accent);
     display: block;
     font-size: 1.1rem;
+    font-weight: 400;
     margin-bottom: 18px;
     margin-left: 50px;
     margin-right: 50px;
     opacity: .7;
-    padding: 18px;
+    padding: 5px;
     pointer-events: auto;
     position: relative;
     text-align: left;
@@ -99,8 +100,8 @@ main {
 }
 
 #links a:hover {
-    background-color: var(--accent);
-    color: var(--button);
+    /* background-color: var(--accent); */
+    /* color: var(--button); */
     cursor: pointer;
     opacity: 1;
 }
@@ -118,9 +119,27 @@ main {
     margin: 40px auto 20px;
 }
 
+.icon {
+	width:1.5rem;
+	height:1.5rem;
+    margin-left: 1.2rem;
+	margin-right:0.5rem;
+    vertical-align:middle;
+    display:inline-block;
+    opacity: 0.75;
+	flex-shrink:0;
+}
+
+.linktext {
+    vertical-align:middle;
+    display:inline-block;
+    opacity: 1;
+	flex-shrink:0;
+}
+
 /* Wallpaper properties */
 #wallpapers > * {
-    animation: fadein 1s ease-out .5s forwards;
+    /* animation: fadein 1s ease-out .5s forwards; */
     opacity: 20;
     left: 0;
     height: 100vh;
@@ -129,4 +148,54 @@ main {
     top: 0;
     width: 100vw;
     z-index: 0;
+}
+
+/* pendings */
+.mail {
+    color: var(--accent);
+    filter: invert(95%);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    opacity: .5;
+    text-align: center;
+    margin: 10px;
+    user-select: text;
+}
+
+
+
+/* Font Face Definitions
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  @font-face {
+	font-display:swap;
+	font-family:'Open Sans';
+	font-style:normal;
+	font-weight:400;
+	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.eot');
+	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.eot?#iefix') format('embedded-opentype'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2') format('woff2'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff') format('woff'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.ttf') format('truetype'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.svg#OpenSans') format('svg');
+}
+@font-face {
+	font-display:swap;
+	font-family:'Open Sans';
+	font-style:normal;
+	font-weight:600;
+	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-600.eot');
+	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-600.eot?#iefix') format('embedded-opentype'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-600.woff2') format('woff2'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-600.woff') format('woff'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-600.ttf') format('truetype'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-600.svg#OpenSans') format('svg');
+}
+@font-face {
+	font-display:swap;
+	font-family:'Open Sans';
+	font-style:normal;
+	font-weight:700;
+	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.eot');
+	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.eot?#iefix') format('embedded-opentype'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2') format('woff2'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.woff') format('woff'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.ttf') format('truetype'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.svg#OpenSans') format('svg');
+}
+@font-face {
+	font-display:swap;
+	font-family:'Open Sans';
+	font-style:normal;
+	font-weight:800;
+	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.eot');
+	src:url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.eot?#iefix') format('embedded-opentype'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2') format('woff2'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff') format('woff'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.ttf') format('truetype'),url('../fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.svg#OpenSans') format('svg');
 }
